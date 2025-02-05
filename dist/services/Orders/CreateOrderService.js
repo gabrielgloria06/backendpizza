@@ -21,11 +21,6 @@ class CreateOrderService {
                 data: {
                     table: table,
                     name: name
-                },
-                select: {
-                    id: true,
-                    table: true,
-                    name: true
                 }
             });
             return order;
